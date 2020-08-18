@@ -43,7 +43,15 @@
                 <!--添加启动类-->
                 <configuration>
                     <mainClass>com.ddh.learn.web.TestWebApplication</mainClass>
+                    <includeSystemScope>true</includeSystemScope>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <version>2.3.3.RELEASE</version>
             </plugin>
             <plugin>
