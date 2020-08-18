@@ -13,6 +13,8 @@
         <module>test-common</module>
         <module>test-service</module>
         <module>test-web</module>
+        <module>test-work</module>
+        <module>test-work2</module>
     </modules>
 
     <dependencyManagement>
