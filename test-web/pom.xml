@@ -40,6 +40,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--添加启动类-->
+                <configuration>
+                    <mainClass>com.ddh.learn.web.TestWebApplication</mainClass>
+                </configuration>
                 <version>2.3.3.RELEASE</version>
             </plugin>
             <plugin>
