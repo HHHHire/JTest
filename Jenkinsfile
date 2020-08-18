@@ -1,9 +1,9 @@
 node {
 
     stage('拉取代码') {
-        steps {
-            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'ca612ff9-de94-4787-8cdb-29bc2714977f', url: 'https://github.com/HHHHire/JTest.git']]])
-        }
+
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'ca612ff9-de94-4787-8cdb-29bc2714977f', url: 'https://github.com/HHHHire/JTest.git']]])
+
     }
     stage('编译、构建镜像') {
         // 定义镜像名
