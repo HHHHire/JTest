@@ -13,7 +13,7 @@ node {
         bat "mvn clean package -pl ${project_name} -am"
 
         // 构建镜像
-        bat "mvn clean package -pl ${project_name} Dockerfile:build"
+        bat "mvn clean package -pl ${project_name} docker:build"
     }
 
 }
