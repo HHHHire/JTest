@@ -1,4 +1,4 @@
-// github凭证
+// github凭证111
 def git_auth = "ca612ff9-de94-4787-8cdb-29bc2714977f"
 // 构建镜像版本
 def tag = "latest"
